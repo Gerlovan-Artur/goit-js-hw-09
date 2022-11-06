@@ -16,3 +16,44 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.label,
+.value {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(219, 26, 26),
+    0 0 82px rgb(219, 26, 26),
+    0 0 92px rgb(219, 26, 26),
+    0 0 102px rgb(219, 26, 26),
+    0 0 151px rgb(219, 26, 26);
+}
+
+
+.timer {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 50px;
+
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  font-size: 40px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 20px;
+}
